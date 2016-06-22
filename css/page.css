@@ -1,8 +1,26 @@
 /*商品品类管理*/
 .tab-brand-box{
     width: 820px;
-    height: 297px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
+}
+.tab-contanier-middle{
+    line-height:52px;
+    padding-top: 29px;
+    margin-bottom: 40px;
+    width: 282px;
+
+}
+.tab-contanier-middle>div.input-box> input{
+    width:100%;
+}
+.tab-contanier-middle-column{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+span.brand-logo{
+    font-size: 15px;
+    color: rgba(0,0,0,0.60);
 }
