@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>后台管理系统</title>
+    <title>广告管理-添加位置</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/modules.css">
     <link rel="stylesheet" href="css/page.css">
@@ -21,8 +21,8 @@
                         <div class="nav-wrapper">
                             <div class="sub-nav-content">
                                 <ul>
-                                    <li><a href="productCategoryManage.html">商品管理<i class="nav-line"></i></a></li>
-                                    <li><a href="adverPostion.html">广告管理<i class="nav-line"></i></a></li>
+                                    <li><a>商品管理<i class="nav-line"></i></a></li>
+                                    <li><a>广告管理<i class="nav-line"></i></a></li>
                                     <li><a>文章管理<i class="nav-line"></i></a></li>
                                     <li><a>订单管理<i class="nav-line"></i></a></li>
                                     <li><a>积分管理<i class="nav-line"></i></a></li>
@@ -89,49 +89,39 @@
     </div>
 </section>
     <section class="tab-container">
-        <!--module tab-title start-->
         <div class="tab-title tab-box">
             <i class="tab-title-arrow index-icons left-arrow"></i>
-            <h1 class="tab-title-font">商品品牌管理/添加品牌</h1>
+            <h1 class="tab-title-font">广告位置/添加位置</h1>
         </div>
-        <!--module tab-title end-->
-        <div class="tab-box tab-brand-box">
-            <!--container middle-->
-            <div class="tab-contanier-middle">
+        <div class="tab-box tab-ad-pos-box">
+            <form>
                 <div class="input-box">
-                    <input type="text"  placeholder="输入品牌名称">
-                    <label>品牌名称</label>
+                    <input type="text"  placeholder="输入位置名称">
+                    <label>位置名称</label>
                 </div>
                 <div class="input-box">
-                     <input type="text"  placeholder="输入品牌网址">
-                     <label>品牌网址</label>
+                    <input type="text"  placeholder="输入位置宽度">
+                    <label>位置宽度</label>
                 </div>
                 <div class="input-box">
-                    <input type="text"  placeholder="输入品牌简介">
-                    <label>品牌简介</label>
+                    <input type="text"  placeholder="输入位置高度">
+                    <label>位置高度</label>
                 </div>
-            <div class="tab-contanier-middle-column">
-                    <span class="brand-logo">品牌Logo </span>
-                    <input type="button" class="button-small button-grey" value="    ">
-                    <input type="button" class="button-small button-grey" value="删除">
-                    <input type="button" class="button-small button-primary" value="上传">
-            </div>
-            <div class="checkbox">
-                   <span>是否显示</span>
-                   <input type="checkbox" id="checkBox1">
-                   <label for="checkBox1"></label>
-            </div>
-             <div class="tab-contanier-middle-column">
-
-                <input type="button" class="button button-grey" value="重置">
-                <input type="button" class="button button-primary" value="确定">
-             </div>
-
-            </div>
-
+                <div class="input-box">
+                    <input type="text"  placeholder="输入描述">
+                    <label>描述</label>
+                </div>
+                <div class="input-box">
+                    <input type="text"  placeholder="输入模版">
+                    <label>模版</label>
+                </div>
+                <div class="tab-btn-row">
+                    <input type="button" class="button button-grey" value="取消">
+                    <input type="submit" class="button button-primary" value="确定">
+                </div>
+            </form>
         </div>
     </section>
-
 
 </body>
 <script src="js/jquery-1.12.4.min.js"></script>

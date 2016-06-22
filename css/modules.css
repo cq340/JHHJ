@@ -152,7 +152,7 @@
 .input-box> input{
     position: relative;
     width: 178px;
-    height: 26px;
+    height: 20px;
     outline: none;
     border: 2px solid;
     border-color:transparent transparent rgba(19,83,128,0.70) transparent ;

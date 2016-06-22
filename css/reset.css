@@ -8,6 +8,13 @@ small{ font-size:12px; }
 ul, ol { list-style:none; }
 a { text-decoration:none; }
 a:hover { text-decoration:none; }
+a:link{
+    text-decoration: none;
+    color: #fff;
+}
+a:visited{
+    color: #fff;
+}
 sup { vertical-align:text-top; }
 sub{ vertical-align:text-bottom; }
 legend { color:#000; }
