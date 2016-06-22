@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>商品品类管理</title>
+    <title>后台管理系统</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/modules.css">
     <link rel="stylesheet" href="css/page.css">
@@ -92,36 +92,44 @@
         <!--module tab-title start-->
         <div class="tab-title tab-box">
             <i class="tab-title-arrow index-icons left-arrow"></i>
-            <h1 class="tab-title-font">商品品类管理/添加品类</h1>
+            <h1 class="tab-title-font">商品品牌管理/添加品牌</h1>
         </div>
         <!--module tab-title end-->
-        <div class="tab-box tab-category-box">
-            <div class="tab-category-row">
+        <div class="tab-box tab-brand-box">
+            <!--container middle-->
+            <div class="tab-contanier-middle">
                 <div class="input-box">
-                    <input type="text" placeholder="请输入品类名称" />
-                    <label>品类名称</label>
+                    <input type="text"  placeholder="输入品牌名称">
+                    <label>品牌名称</label>
                 </div>
-            </div>
-            <div class="tab-category-row">
-                <select>
-                    <option>餐具</option>
-                    <option>花瓶</option>
-                    <option>装饰物</option>
-                </select>
-            </div>
-            <div class="tab-category-row">
-                <div class="checkbox">
-                    <span>是否显示</span>
-                    <input type="checkbox" id="checkBox1">
-                    <label for="checkBox1"></label>
+                <div class="input-box">
+                     <input type="text"  placeholder="输入品牌网址">
+                     <label>品牌网址</label>
                 </div>
+                <div class="input-box">
+                    <input type="text"  placeholder="输入品牌简介">
+                    <label>品牌简介</label>
+                </div>
+            <div class="tab-contanier-middle-column">
+                    <span class="brand-logo">品牌Logo </span>
+                    <input type="button" class="button-small button-grey" value="    ">
+                    <input type="button" class="button-small button-grey" value="删除">
+                    <input type="button" class="button-small button-primary" value="上传">
             </div>
-            <div class="tab-category-btn-row">
+            <div class="checkbox">
+                   <span>是否显示</span>
+                   <input type="checkbox" id="checkBox1">
+                   <label for="checkBox1"></label>
+            </div>
+             <div class="tab-contanier-middle-column">
                 <input type="button" class="button button-grey" value="重置">
                 <input type="button" class="button button-primary" value="确定">
+             </div>
             </div>
         </div>
     </section>
+
+
 </body>
 <script src="js/jquery-1.12.4.min.js"></script>
 <script src="js/modules.js"></script>

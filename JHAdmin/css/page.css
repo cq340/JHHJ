@@ -45,3 +45,28 @@ span.brand-logo{
     justify-content: space-between;
     width: 282px;
 }
+
+/*商品品类管理*/
+.tab-category-box{
+    width: 820px;
+    height:230px;
+    display: flex;
+    padding: 36px 0px 28px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+.tab-category-row{
+    margin-bottom:27px;
+    width:172px;
+}
+.tab-category-row .input-box input{
+    width:165px;
+}
+.tab-category-row .checkbox{
+    width: 172px;
+}
+.tab-category-btn-row{
+    display: flex;
+    justify-content: space-between;
+    width:172px;
+}
