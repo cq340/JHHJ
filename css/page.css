@@ -1,0 +1,8 @@
+/*商品品类管理*/
+.tab-brand-box{
+    width: 820px;
+    height: 297px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
