@@ -1,21 +1,20 @@
 /*商品品类管理*/
 .tab-brand-box{
     width: 820px;
+    height:290px;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    padding:36px 0px 26px 0px;
 }
-.tab-contanier-middle{
-    line-height:52px;
-    padding-top: 29px;
-    margin-bottom: 40px;
-    width: 282px;
-
+.tab-brand-box .input-box>input{
+    width:278px;
 }
-.tab-contanier-middle>div.input-box> input{
-    width:100%;
+.tab-brand-row{
+    margin-bottom:27px;
 }
 .tab-contanier-middle-column{
+    width:282px;
     display: flex;
     align-items:center;
     justify-content: space-between;
